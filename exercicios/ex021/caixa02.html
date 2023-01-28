@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(192, 192, 192);
+        }
+        header{
+            background-color: rgb(228, 227, 227);
+            padding: 15px;
+            margin: 25px;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 2px 4px 11px rgb(107, 107, 107);
+        }
+        nav{
+            background-color: rgb(0, 0, 0);
+            padding: 3px;
+            box-shadow: 2px 4px 13px rgb(155, 153, 153);
+        }
+        nav > a{
+            color: rgb(193, 194, 196);
+            font-weight: bold;
+            text-decoration: none;
+            padding: 1px 28px 1px 1px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: rgb(228, 227, 227);
+            padding: 15px;
+            margin: 35px 25px 35px 25px; 
+            border-radius: 5px;
+            box-shadow: 2px 4px 11px rgb(107, 107, 107);
+        }
+        article{
+                background-color: rgb(221, 220, 220);
+                width: auto;
+            }
+        article > aside{
+                background-color: rgb(94, 95, 96);
+            }
+        footer{
+            background-color: rgb(0, 0, 0);
+            font-weight: bold;
+            color: rgb(132, 136, 139);
+            text-align: center;
+            padding: 3px;
+            margin: 25px;
+            border-radius: 5px;
+            box-shadow: 2px 4px 11px rgb(107, 107, 107);
+        }
+        footer > p{
+            margin: 0px;
+        }
+
+        div#bola{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            margin: 10px;
+            background-color: whitesmoke;
+            margin: 50px auto;
+            box-shadow: 0px 1px 35px rgb(111, 110, 110);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Diario da Região</h1>
+        <nav>
+            <a href="#">Política</a>
+            <a href="#">Esportes</a>
+            <a href="#">Economia</a>
+            <a href="#">Agronegócio</a>
+            <a href="#">Cidadão</a>
+            <a href="#">Fale Conosco</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati pariatur illum vel, saepe ipsa esse nostrum itaque assumenda ullam architecto eius laborum eos natus, atque perspiciatis minus error fugit aperiam?</p>
+                <aside>
+                    <p>Artigo escrito por Angelo Madureira</p>
+                </aside>
+            </article>
+            <article></article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Felipe Marcel</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

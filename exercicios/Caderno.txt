@@ -1,0 +1,36 @@
+Repositórios
+	github.com/gustavoguanabara
+	gustavoguanabara.github.io
+
+Tags CSS
+background-color = muda a cor de fundo de um elemento
+color = muda a cor do texto
+font-family = muda a fonte do texto
+font-size = define o tamanho da fonte
+font-weight = peso da fonte (lighter, normal, bold, bolder)
+font-style = define se a fonte é itálica ou normal (italic, normal)
+text-decoration = define sublinhado no texto
+text-align = define o alinhamento do texto
+
+Border = linha que circula o conteúdo
+padding = margem entre o texto(conteúdo) e a borda do elemento
+margin = espaço exterior ao redor da borda
+outline = linha que contorna a borda pelo lado externo
+
+margin: auto = centraliza o elemento na tela
+border-radius = arredonda a borda do elemento
+box-shaddow: 5px 5px 5px black = adiciona sombra ao elemento
+text-shadow: 1px 1px 1px black = adiciona sombra ao texto
+
+medidas absolutas: cm, mm, in, px, pt, pc
+medidas relativas:  em(altura do M), ex(altura do X), rem, vw(largura da tela), vh(altura da tela), %
+
+shorthand para fonte
+font: font-style font-weight font-size font-family
+ex: font: italic bolder 1em 'work sans';
+
+SELETORES PERSONALIZADOS
+A tag id em Css é #
+A tag . em Css significa class
+A tag : em CSS significa pseudo class
+A tag :: em CSS significa pseudo elemento

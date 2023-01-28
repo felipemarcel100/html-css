@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Android</title>
+    <style>  
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    @font-face {
+        font-family: 'idroid';
+        src: url('fontes/idroid.otf') format(truetype);
+    }
+        body{
+            background-color: #83E1AD;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
+        }
+
+        header{
+           height: 130px; 
+           background-image: linear-gradient(180deg, #3bd47f, #1a5c38); 
+           text-align: center;
+           color: whitesmoke;
+           font-family: 'Bebas Neue', cursive;
+           text-shadow: 2px 2px 3px #1a5c38;
+           box-shadow: 0px 3px 4px #1a5c38;
+        }
+
+        header > h1 {
+            padding: 015px 0px 5px 0px;
+            margin: 0px 0px 0px 0px;
+            }
+        nav{
+            height: 25px;
+            background-color: #1a5c38;
+            box-shadow: 0px 3px 6px #1a5c38;
+        }
+        nav > a{
+            text-align: left;
+            color: whitesmoke;
+            text-decoration: none;
+            padding: 0px 0px 3px 10px;
+            font-family: 'Bebas Neue', cursive;
+        }
+        main{
+            min-width: 300px;
+            max-width: 1000px;
+            margin: auto;
+            background-color: whitesmoke;
+            box-shadow: 0px 0px 10px #1a5c38;
+            border-radius: 0px 0px 10px 10px;
+            }
+        main > h1{
+            font-family: 'idroid', Arial, Helvetica, sans-serif;
+            padding: 15px 7px 0px 20px;
+            margin: 0px;
+            color:#063d1eba;
+        }
+        main>h2{
+            font-family: 'idroid', Arial, Helvetica, sans-serif;
+            padding: 0px 7px 0px 20px;
+            margin: 20px;
+            color:#063d1eba;
+            background-image: linear-gradient(90deg, #83E1AD, whitesmoke);
+        }
+        main>p{
+            padding: 0px 20px 0px 20px;
+            text-indent: 30px;
+        }
+        .img-retangular{
+            padding: 0px 20px ;
+            width: 94%;
+        }
+        .img-quadrada{
+            display: block;
+            margin-left: auto;
+            margin-right: auto
+        }
+        section{
+            background-color: #1a5c38;
+            width: 100%;
+        }
+        section>iframe{
+            padding: 15px 20px 15px 20px;
+            width: 94%;
+        }
+        
+        .destaque{
+            color: #2FA866;
+            font-weight: bold;
+        }
+        aside{
+            background-color: #C5EBD6;
+            margin: 15px;
+            border-radius: 5px;
+            text-indent: 30px;
+        }
+        aside>h1{
+            background-color: #2FA866;
+            color: whitesmoke;
+            border-radius: 5px 5px 0px 0px;
+            padding: 5px;
+            font-size: 1.2em;
+        }
+        aside>p{
+            padding: 5px;
+        }
+        footer>p{
+            background-color: #1a5c38;
+            color: whitesmoke;
+            text-align: center;
+            font-size: 0.9em;
+            margin: 0px 0px 0px 0px;
+            padding: 3px;
+            font-weight: 300;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CURIOSIDADES DE TECNOLOGIA</h1>
+        <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, emum único lugar</p>
+        
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Notícias</a>
+        <a href="#">Curiosidades</a>
+        <a href="#">Fale Conosco</a>
+    </nav>
+    <main>
+        <h1>HISTÓRIA DO MASCOTE DO ANDROID</h1>
+            <p>Prvavelmente você sabe que o mascote do sistema operacional <span class="destaque">Android</span>, mantido pelo <span class="destaque">Google</span>, é um dos mais usados para dispositivos móveis em todo o mundo. Mas, você sabia que ess simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
+        <h2>A PRIMEIRA VERSÃO</h2>
+            <p>A primeira tentativa de criar um mascote veio em 2007 e veio de um desenvolvedor chamado <a href="#" class="destaque">Dan Morrill</a>. Ele conta que abriu o <a href="#" class="destaque">Inkscape</a>  (Software livre para vetorização de imagens) e criou sua própria vesão do robô. O objetivo era apenas personificar o sistema apenas para sua equipe, não exestia nenhuma solicitação da empresa para a criação de um mascote.</p>
+        <img class="img-retangular" src="imagens/dan-droids.png" alt="Primeiro logo do Sistema Operacional Android">
+            <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os  <span class="destaque">Dandroids</span>.</p>
+        <h2>SURGE UM NOVO MASCOTE</h2>
+            <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. a ilustradora russa <a class="destaque"href="#">Irina Blok</a>, também funcioária do Google, ficou com a missão de representar o robô de uma maneira mais agradável.</p>
+        <img class="img-retangular"src="imagens/irina-blok.jpg" alt="Irina Blok, ilustradora da segunda versão do mascote do Android">
+            <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho també deveria gerar identicação rápida com quem o olha. Surgiu então o <span class="destaque">Bugdroid</span>,  o novo mascote do Android.</p>
+        <img class="img-quadrada" src="imagens/bugdroid.png" alt="Segunda versão do mascote do Android">
+            <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o genero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo e objetivo </p>
+        
+            <section>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </section>
+
+            <aside>
+                <h1>Quer aprender mais?</h1>
+                    <p>Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0</p>
+
+                    <ul>
+                        <li>1.5 - Cupcake</li>
+                        <li>1.6 - Donut</li>
+                        <li>2.1 - Eclair</li>
+                        <li>2.2 - Froyo</li>
+                        <li>2.3 - Gingerbread</li>
+                        <li>3.0 - Honeycomb</li>
+                        <li>4.0 - Ice Cream Sandwich</li>
+                        <li>4.1 - Jellybean</li>
+                        <li>4.4 - Kit kat</li>
+                        <li>5.0 - Lollipop</li>
+                        <li>6.0 - Marshmellow</li>
+                        <li>7.0 - Nougat</li>
+                        <li>8.0 - Oreo</li>
+                        <li>9.0 - Pie</li>
+                    </ul>
+                    <p>Infelizmente, o Android Q não existiu, pois o Google resolveu por fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.</p>
+                    <p>Acesse aqui o site <span class="destaque">Android History</span> para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.</p>
+            </aside>
+            <p>Então é isso, espero que você tenha gostado do nosso artigo com essas curiosidades sobre o Sistema <span class="destaque">Android</span> e seu simpático mascote.</p>
+    </main>
+    <footer>
+        <p>Desenvolvido por Felipe Marcel Vilela. Todos os direitos reservados</p>
+    </footer>
+    
+</body>
+</html>

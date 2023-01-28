@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    background-color: #f2f0f3;
+    background-image: radial-gradient(circle, rgb(21, 0, 255) -10%, yellow, green);
+    color: #0e0ed3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+h1{
+    background-color: #70707a;
+    color: #020203;
+}
+h2 {
+    color: #494952;
+}
+
+a{
+    color: rgb(27, 83, 46);
+    text-align: center;
+}
+
+p {
+    color: #494952;
+    text-align: center;
+}
