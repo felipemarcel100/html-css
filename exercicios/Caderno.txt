@@ -35,4 +35,4 @@ A tag . em Css significa class
 A tag : em CSS significa pseudo class
 A tag :: em CSS significa pseudo elemento
 
-A tag positio: absolute; permite definir as tagas left e top  para criar espaços laterais.
+A tag position: absolute; permite definir as tagas left e top  para criar espaços laterais.
