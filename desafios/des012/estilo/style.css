@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Nerko+One&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, Sans-serif;
+    --fonte2: 'Indie Flower', cursive;
+    --fonte3:'Nerko One', cursive;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -7,6 +16,7 @@
 html,body{
     min-height: 100vh;
     background-color: lightgray;
+    font-family: var(--fonte1);
 }
 header{
     background-color: black;
@@ -14,11 +24,14 @@ header{
     text-align: center;
 }
 header>h1{
-    padding-top: 50px;
+    padding-top: 30px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 7vw;
 }
 header>p{
-    padding: 50px;
+    padding: 0px 0px 20px 0px ;
+    font-size: 2vw;
 }
 header a, footer a{
     color: whitesmoke;
@@ -33,6 +46,8 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3vw;
 }
 section.normal{
     background-color: whitesmoke;
@@ -44,7 +59,8 @@ section.imagem{
 }
 section.imagem>p{
     background-color: rgba(0, 0, 0, 0.186);
-    width: 400px;
+    display: inline-block;
+    padding: 10px;
 }
 
 
