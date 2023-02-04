@@ -36,3 +36,10 @@ A tag : em CSS significa pseudo class
 A tag :: em CSS significa pseudo elemento
 
 A tag position: absolute; permite definir as tagas left e top  para criar espaços laterais.
+
+Hierarquia de tabelas
+
+TABLE = Tabela
+TABLE ROW (tr) = Linha da tabela
+TABLE HEADER = Cabeçalho da tabela
+TABLE DATA (td) = Dado da tabela
