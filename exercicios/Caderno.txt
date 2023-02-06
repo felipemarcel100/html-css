@@ -41,5 +41,5 @@ Hierarquia de tabelas
 
 TABLE = Tabela
 TABLE ROW (tr) = Linha da tabela
-TABLE HEADER = Cabeçalho da tabela
+TABLE HEADER (th) = Cabeçalho da tabela
 TABLE DATA (td) = Dado da tabela
