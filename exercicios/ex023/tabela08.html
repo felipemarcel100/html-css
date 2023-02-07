@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid black;
+        }
+        .col-nome{
+            background-color: rgb(200, 198, 198);
+        }
+        .col-prof{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="col-nome">
+            <col class="col-sexo">
+            <col class="col-idade">
+            <col class="col-prof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th class="destaque" scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>Feminino</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Ana Beatriz</td>
+            <td>Feminino</td>
+            <td>35</td>
+            <td>Designer</td>
+        </tr>
+        <tr>
+            <td>Jão Carlos</td>
+            <td>Masculino</td>
+            <td>43</td>
+            <td>Lavrador</td>
+        </tr>
+        <tr>
+            <td>André Lucas</td>
+            <td>Masculino</td>
+            <td>31</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Ana Helena</td>
+            <td>Feminino</td>
+            <td>18</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Rosangela Vilela</td>
+            <td>Feminino</td>
+            <td>42</td>
+            <td>Advogada</td>
+        </tr>
+        <tr>
+            <td>Antônio Carlos</td>
+            <td>Masculino</td>
+            <td>38</td>
+            <td>Eletrecista</td>
+        </tr>
+        <tr>
+            <td>Lucas Ricardo</td>
+            <td>Masculino</td>
+            <td>29</td>
+            <td>Radialista</td>
+        </tr>
+    </table>
+</body>
+</html>
