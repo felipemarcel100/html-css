@@ -11,23 +11,45 @@
         }
         table{
             width: 600px;
+            border-collapse: collapse;
+        }
+        thead{
+            background-color: gray;
+            color: whitesmoke;
+            font-weight: bold;
+            text-align: center;
         }
         td, tr, th{
             border: 1px solid black;
+            text-align: center;
+        }
+        th{
+            background-color: gray;
+            color: whitesmoke;
+        }
+        .especial{
+            background-color: gray;
+            color: whitesmoke;
         }
     </style>
 </head>
 <body>
     <table>
         <thead>
-            <th rowspan="2">Área</th>
-            <th rowspan="2">Disiplinas</th>
-            <th colspan="2">Notas</th>            
-            <th rowspan="2">Média</th>
+            <tr>
+                <th rowspan="2" scope="col">Área</th>
+                <th rowspan="2" scope="col">Disiplinas</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="col">Média</th>
+            </tr>    
+            <tr>    
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
+            </tr>    
         </thead>
         <tbody>
             <tr>
-                <td rowspan="4">Exatas</td>
+                <td rowspan="4" scope="rowgroup"><strong>Exatas</strong></td>
                 <td>Matemática</td>
                 <td>0.0</td>
                 <td>0.0</td>
@@ -51,12 +73,12 @@
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
-            <tr>
-                <td colspan="4">Média de Exatas</td>
+            <tr class="especial">
+                <td colspan="4" scope="row">Média de Exatas</td>
                 <td>0.0</td>
             </tr>
             <tr>
-                <td rowspan="2">Humanas</td>
+                <td rowspan="2" scope="rowgroup"><strong>Humanas</strong></td>
                 <td>História</td>
                 <td>0.0</td>
                 <td>0.0</td>
@@ -64,12 +86,12 @@
             </tr>
             <tr>
                 <td>Geografia</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td>10</td>
+                <td>7.9</td>
                 <td>0.0</td>
             </tr>
-            <tr>
-                <td colspan="4">Média e Humanas</td>
+            <tr class="especial">
+                <td colspan="4"scope="row">Média de Humanas</td>
                 <td>0.0</td>
             </tr>
         </tbody>
